@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar:
+    search: false
+    background: light
+    type: light
+    left:
+      - text: "Home"
+        file: index.qmd
+    
+    right:
+      - icon: twitter
+        href: https://twitter.com/m_warb
+      - icon: github
+        href: https://github.com/mwarb
+  
+  # page-footer:
+  #   border: false
+  #   right: "© 2023 ICON Laboratory"
+
+format:
+  html:
+    theme: [cosmo, css/style.scss]
+    css: styles.css
+    toc: false
+
+editor: source
+
