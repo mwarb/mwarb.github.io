@@ -1,0 +1,12 @@
+/*-- css:defaults --*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left:.5rem;
+  padding-right:.5rem
+}
+
+nav .nav-item.compact .nav-link {
+  padding-left:.4rem;
+  padding-right:.4rem;
+  font-size:1.1rem
+}

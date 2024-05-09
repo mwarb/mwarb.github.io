@@ -4,29 +4,36 @@ project:
 
 website:
   title: ""
+  search: false
   navbar:
-    search: false
     background: light
     type: light
     left:
-      - text: "Home"
-        file: index.qmd
+      - text: About
+        href: index.qmd
     
     right:
-      - icon: twitter
+      - text: "{{< iconify eva:email-fill size=1.5em title='Email'>}}"
+        href: "mailto:pscmwa@leeds.ac.uk"
+      - text: "{{< iconify fa6-brands:square-twitter size=1.5em title='Twitter'>}}"
         href: https://twitter.com/m_warb
-      - icon: github
+      - text: "{{< iconify fa6-brands:square-github size=1.5em title='Github'>}}"
         href: https://github.com/mwarb
-  
+      - text: "{{< iconify academicons:google-scholar-square size=1.5em title='Google Scholar'>}}"
+        href: https://scholar.google.com/citations?user=zQa8nTgAAAAJ&hl=en
+      - text: "{{< iconify academicons:orcid-square size=1.5em title='orcid'>}}"
+        href: https://orcid.org/0000-0001-5309-4424
+      - text: "{{< iconify academicons:researchgate-square size=1.5em title='ResearchGate'>}}"
+        href: https://www.researchgate.net/profile/Matthew-Warburton-3
+
   # page-footer:
-  #   border: false
-  #   right: "© 2023 ICON Laboratory"
+  #   border: true
+  #   left: "Matthew Warburton"
 
 format:
   html:
-    theme: [cosmo, css/style.scss]
-    css: styles.css
+    theme: [cosmo]
+    css: css/style.css
     toc: false
 
 editor: source
-
