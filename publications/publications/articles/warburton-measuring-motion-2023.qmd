@@ -23,7 +23,9 @@ pub-info:
   extra: >-
     Presented at Neural Control of Movement 2021.
 
-# categories:
+categories:
+  - virtual reality
+  - methodological
 ---
 
 ## Abstract

@@ -25,7 +25,9 @@ pub-info:
   extra: >-
     Presented at Neural Control of Movement 2022.
 
-# categories:
+categories:
+  - online experiments
+  - skill acquisition
 ---
 
 ## Abstract

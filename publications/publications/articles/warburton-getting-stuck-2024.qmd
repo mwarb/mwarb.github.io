@@ -33,7 +33,8 @@ pub-info:
   extra: >-
     Presented at Progress in Motor Control 2019.
 
-# categories:
+categories:
+  - decision-making
 ---
 
 ## Abstract
