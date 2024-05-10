@@ -64,6 +64,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-preprints .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-type','listing-author','listing-date','listing-year','listing-doi','listing-pub-info','listing-categories','listing-date-format','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-type","listing-author","listing-date","listing-year","listing-doi","listing-pub-info","listing-categories","listing-date-format","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -138,23 +166,43 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="decision-making">decision-making <span class="quarto-category-count">(2)</span></div><div class="category" data-category="methodological">methodological <span class="quarto-category-count">(2)</span></div><div class="category" data-category="online experiments">online experiments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="skill acquisition">skill acquisition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="virtual reality">virtual reality <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="decision-making">decision-making <span class="quarto-category-count">(2)</span></div><div class="category" data-category="methodological">methodological <span class="quarto-category-count">(2)</span></div><div class="category" data-category="motor learning">motor learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="online experiments">online experiments <span class="quarto-category-count">(2)</span></div><div class="category" data-category="skill acquisition">skill acquisition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="virtual reality">virtual reality <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-articles">
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
+<ul class="pub-list list">
+  <li class="project" data-index="0" data-categories="online experiments,motor learning" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1715348896458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div class="project-content listing-pub-info">
+        <p><strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. &amp; Morehead, J. R. (2023). Visuomotor memory is not bound to visual motion. <em>bioRxiv</em>. doi: <a href="https://doi.org/10.1101/2023.09.27.559701 ">10.1101/2023.09.27.559701 </a></p>
+    </div>
+    <a href="../publications/preprints/warburton-visuomotor-memory-2023.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://doi.org/10.1101/2023.09.27.559701 " class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    <p>
+  </p></li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <ul class="pub-list list">
   <li class="project" data-index="0" data-categories="decision-making" data-listing-date-sort="1712098800000" data-listing-file-modified-sort="1715347894074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <div class="project-content listing-pub-info">
         <p><strong>Warburton, M.</strong>, Brookes, J., Hasan, M., Leonetti, M., Dogar, M., Wang, H., Cohn, A. G., Mushtaq, F., &amp; Mon-Williams, M. (2024). Getting stuck in a rut as an emergent feature of a dynamic decision-making system. <em>Royal Society Open Science, 11</em>(4), 231550. doi: <a href="https://doi.org/10.1098/rsos.231550">10.1098/rsos.231550</a></p>
     </div>
-    <a href="../publications/publications/articles/warburton-getting-stuck-2024.html" class="btn btn-primary">
+    <a href="../publications/articles/warburton-getting-stuck-2024.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.1098/rsos.231550" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -165,11 +213,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <p>
   </p></li>
-  <li class="project" data-index="1" data-categories="online experiments,skill acquisition" data-listing-date-sort="1690758000000" data-listing-file-modified-sort="1715347900612" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+  <li class="project" data-index="1" data-categories="online experiments,skill acquisition,motor learning" data-listing-date-sort="1690758000000" data-listing-file-modified-sort="1715348864494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
     <div class="project-content listing-pub-info">
         <p><strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. &amp; Morehead, J. R. (2023). Kinematic markers of skill in first-person shooter video games. <em>PNAS Nexus, 2</em>(8), pgad249 doi: <a href="https://doi.org/10.1093/pnasnexus/pgad249">10.1093/pnasnexus/pgad249</a></p>
     </div>
-    <a href="../publications/publications/articles/warburton-kinematic-markers-2023.html" class="btn btn-primary">
+    <a href="../publications/articles/warburton-kinematic-markers-2023.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.1093/pnasnexus/pgad249" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -184,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="project-content listing-pub-info">
         <p><strong>Warburton, M.</strong>, Mon-Williams, M., Mushtaq, F. &amp; Morehead, J. R. (2023). Measuring motion-to-photon latency for sensorimotor experiments with virtual reality systems. <em>Behavior Research Methods, 55</em>, 3658-3678 doi: <a href="https://doi.org/10.3758/s13428-022-01983-5">10.3758/s13428-022-01983-5</a></p>
     </div>
-    <a href="../publications/publications/articles/warburton-measuring-motion-2023.html" class="btn btn-primary">
+    <a href="../publications/articles/warburton-measuring-motion-2023.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.3758/s13428-022-01983-5" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -199,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="project-content listing-pub-info">
         <p>Brookes, J., <strong>Warburton, M.</strong>, Alghadier, M., Mon-Williams, M. &amp; Mushtaq, F. (2020). Studying human behavior with virtual reality: The Unity Experiment Framework. <em>Behavior Research Methods, 52</em>, 455-463. doi: <a href="https://doi.org/10.3758/s13428-019-01242-0">10.3758/s13428-019-01242-0</a></p>
     </div>
-    <a href="../publications/publications/articles/brookes-studying-human-2020.html" class="btn btn-primary">
+    <a href="../publications/articles/brookes-studying-human-2020.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.3758/s13428-019-01242-0" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -214,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="project-content listing-pub-info">
         <p>Hasan, M., <strong>Warburton, M.</strong>, Agboh, W. C., Dogar, M., Leonetti, M., Wang, H., Mushtaq, F., Mon-Williams, M. &amp; Cohn, A. G. (2020). Human-like planning for reaching in cluttered environments. <em>2020 IEEE International Conference on Robotics and Automation (ICRA)</em> (pp. 7784-7790). IEEE. doi: <a href="https://doi.org/10.1109/ICRA40945.2020.9196665">10.1109/ICRA40945.2020.9196665</a>.</p>
     </div>
-    <a href="../publications/publications/conference-proceedings/hasan-humanlike-planning-2020.html" class="btn btn-primary">
+    <a href="../publications/proceedings/hasan-humanlike-planning-2020.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.1109/ICRA40945.2020.9196665" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -229,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="project-content listing-pub-info">
         <p>Raw, R. K., Wilkie, R. M., Allen, R. J., <strong>Warburton, M.</strong>, Leonetti, M., Williams, J. H. G. &amp; Mon-Williams, M. (2019). Skill acquisition as a function of age, hand and task difficulty: Interactions between cognition and action. <em>PLoS ONE, 14</em>(2), e0211706 doi: <a href="https://doi.org/10.1371/journal.pone.0211706">10.1371/journal.pone.0211706</a></p>
     </div>
-    <a href="../publications/publications/articles/raw-skill-acquisition-2019.html" class="btn btn-primary">
+    <a href="../publications/articles/raw-skill-acquisition-2019.html" class="btn btn-primary">
       Details
     </a>
     <a href="https://doi.org/10.1371/journal.pone.0211706 " class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
@@ -241,7 +289,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

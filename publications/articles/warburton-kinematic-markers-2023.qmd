@@ -28,6 +28,7 @@ pub-info:
 categories:
   - online experiments
   - skill acquisition
+  - motor learning
 
 date-format: "YYYY"
 ---

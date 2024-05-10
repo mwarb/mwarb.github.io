@@ -1,0 +1,37 @@
+---
+title: "Visuomotor memory is not bound to visual motion"
+type: "preprint"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Carlo Campagnoli
+    orcid: 0000-0002-9794-4475 
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: J. Ryan Morehead
+    orcid: 0000-0001-5724-3028 
+date: "2023"
+year: 2023
+# publication: "PNAS Nexus"
+doi: "https://doi.org/10.1101/2023.09.27.559701 "
+toc: true
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Visuomotor memory is not bound to visual motion. <em>bioRxiv</em>. doi: <a href="https://doi.org/10.1101/2023.09.27.559701 ">10.1101/2023.09.27.559701 </a>
+#  materials: "https://osf.io/xd8sm/"
+  preprint: "https://doi.org/10.1101/2023.09.27.559701 "
+  extra: >-
+    Presented at Neural Control of Movement 2022.
+
+categories:
+  - online experiments
+  - motor learning
+
+date-format: "YYYY"
+---
+
+## Abstract
+
+Sensory feedback plays a critical role in motor control and motor learning, with both processes adjusting outgoing motor commands relative to the error between actual sensory feedback and the predictions of a forward model. However, models of motor control rarely specify the exact nature of these predictions. We hypothesized that large differences in low-level perceptual feedback would delineate contextual boundaries for motor memory, as sufficiently different feedback would require a distinct mapping between motor commands and sensory states. We tested this hypothesis by measuring transfer of visuomotor adaptation across contexts where hand movements caused visual motion in opposite directions (180° away). Instead of observing that visual feedback is bound to distinct internal models, we found nearly complete transfer of learning across the contexts. Finally, we found evidence that the motor memory was bound to the planned displacement of the hand, rather than visual features of the task space.

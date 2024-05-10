@@ -2,12 +2,31 @@
 pagetitle: "Publications | Matthew Warburton"
 toc: false
 listing:
-  - id: articles
-    contents: "*/**.qmd"
+  - id: preprints
+    contents: 
+      - "preprints/*.qmd"
     template: ../ejs/article.ejs
-    categories: true
     sort:
       - "year desc"
       - "title"
-    page-size: 25
+    categories: true
+  - id: articles
+    contents: 
+      - "articles/*.qmd"
+      - "proceedings/*.qmd"
+    template: ../ejs/article.ejs
+    sort:
+      - "year desc"
+      - "title"
+    categories: true
 ---
+
+## Preprints
+
+:::{#preprints}
+:::
+
+## Journal articles
+
+:::{#articles}
+:::
