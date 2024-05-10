@@ -9,6 +9,5 @@ listing:
     sort:
       - "year desc"
       - "title"
-    sort-ui: [year]
     page-size: 25
 ---
