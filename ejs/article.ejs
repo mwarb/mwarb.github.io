@@ -10,6 +10,16 @@
     <a href="<%- item.path %>" class="btn btn-primary">
       Details
     </a>
+    <% if (item.doi) { %>
+    <a href="<%- item.doi %>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    <% } %>
+    <% if (item['pub-info'].materials) { %>
+    <a href="<%- item['pub-info'].materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-zip"></i> Materials
+    </a>
+    <% } %>
     <p>
   </li>
 <% } %>

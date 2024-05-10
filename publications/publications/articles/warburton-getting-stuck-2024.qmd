@@ -24,7 +24,7 @@ date: "2024-04-03"
 year: 2024
 publication: "Royal Society Open Science"
 doi: "https://doi.org/10.1098/rsos.231550"
-toc: false
+toc: true
 pub-info:
   reference: >-
     <strong>Warburton, M.</strong>, Brookes, J., Hasan, M., Leonetti, M., Dogar, M., Wang, H., Cohn, A. G., Mushtaq, F., & Mon-Williams, M. (2024). Getting stuck in a rut as an emergent feature of a dynamic decision-making system. <em>Royal Society Open Science, 11</em>(4), 231550. doi: <a href="https://doi.org/10.1098/rsos.231550">10.1098/rsos.231550</a>
@@ -35,6 +35,8 @@ pub-info:
 
 categories:
   - decision-making
+
+date-format: "YYYY"
 ---
 
 ## Abstract

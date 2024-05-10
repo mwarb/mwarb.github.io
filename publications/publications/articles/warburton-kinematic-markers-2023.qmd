@@ -16,7 +16,7 @@ date: "2023-07-31"
 year: 2023
 publication: "PNAS Nexus"
 doi: "https://doi.org/10.1093/pnasnexus/pgad249"
-toc: false
+toc: true
 pub-info:
   reference: >-
     <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Kinematic markers of skill in first-person shooter video games. <em>PNAS Nexus, 2</em>(8), pgad249 doi: <a href="https://doi.org/10.1093/pnasnexus/pgad249">10.1093/pnasnexus/pgad249</a>
@@ -28,6 +28,8 @@ pub-info:
 categories:
   - online experiments
   - skill acquisition
+
+date-format: "YYYY"
 ---
 
 ## Abstract

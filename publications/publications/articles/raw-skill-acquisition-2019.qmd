@@ -19,13 +19,15 @@ date: "2019-02-07"
 year: 2019
 publication: "PLoS ONE"
 doi: "https://doi.org/10.1371/journal.pone.0211706 "
-toc: false
+toc: true
 pub-info:
   reference: >-
    Raw, R. K., Wilkie, R. M., Allen, R. J., <strong>Warburton, M.</strong>, Leonetti, M., Williams, J. H. G. & Mon-Williams, M. (2019). Skill acquisition as a function of age, hand and task difficulty: Interactions between cognition and action. <em>PLoS ONE, 14</em>(2), e0211706 doi: <a href="https://doi.org/10.1371/journal.pone.0211706">10.1371/journal.pone.0211706</a>
    
 categories:
   - skill acquisition
+
+date-format: "YYYY"
 ---
 
 ## Abstract
