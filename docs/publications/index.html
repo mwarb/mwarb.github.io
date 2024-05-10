@@ -117,6 +117,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-reports .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-subtitle','listing-type','listing-author','listing-date','listing-year','listing-link','listing-pub-info','listing-categories','listing-date-format','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-subtitle","listing-type","listing-author","listing-date","listing-year","listing-link","listing-pub-info","listing-categories","listing-date-format","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-reports'] = new List('listing-reports', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -166,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="decision-making">decision-making <span class="quarto-category-count">(2)</span></div><div class="category" data-category="methodological">methodological <span class="quarto-category-count">(2)</span></div><div class="category" data-category="motor learning">motor learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="online experiments">online experiments <span class="quarto-category-count">(2)</span></div><div class="category" data-category="skill acquisition">skill acquisition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="virtual reality">virtual reality <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="decision-making">decision-making <span class="quarto-category-count">(2)</span></div><div class="category" data-category="education">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="methodological">methodological <span class="quarto-category-count">(2)</span></div><div class="category" data-category="motor learning">motor learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="online experiments">online experiments <span class="quarto-category-count">(2)</span></div><div class="category" data-category="skill acquisition">skill acquisition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="virtual reality">virtual reality <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -194,8 +222,8 @@ No matching items
 </div>
 </div>
 </section>
-<section id="journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
+<section id="journal-articles-conference-proceedings" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles-conference-proceedings">Journal articles &amp; conference proceedings</h2>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <ul class="pub-list list">
   <li class="project" data-index="0" data-categories="decision-making" data-listing-date-sort="1712098800000" data-listing-file-modified-sort="1715347894074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
@@ -282,6 +310,40 @@ No matching items
     </a>
     <a href="https://doi.org/10.1371/journal.pone.0211706 " class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
       DOI
+    </a>
+    <p>
+  </p></li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="reports" class="level2">
+<h2 class="anchored" data-anchor-id="reports">Reports</h2>
+<div id="listing-reports" class="quarto-listing quarto-listing-container-custom">
+<ul class="pub-list list">
+  <li class="project" data-index="0" data-categories="education" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1715352522901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div class="project-content listing-pub-info">
+        <p>N8 Research Partnership (2024). A country that works for all children and young people. An evidence-based plan for addressing the autism assessment and support crisis. Report. N8 Research Partnership. <a href="https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf">https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf</a></p>
+    </div>
+    <a href="../publications/reports/cotn-autism-report-2024.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      Link
+    </a>
+    <p>
+  </p></li>
+  <li class="project" data-index="1" data-categories="education" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1715352559138" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div class="project-content listing-pub-info">
+        <p>Mon-Williams, M., Wood, M., et al. (2023). Addressing Education and Health Inequity: Perspectives from the North of England. A report prepared for the Child of the North All-Party Parliamentary Group. Report. Child of the North. <a href="https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf">https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf</a></p>
+    </div>
+    <a href="../publications/reports/monwilliams-addressing-education-2023.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      Link
     </a>
     <p>
   </p></li>

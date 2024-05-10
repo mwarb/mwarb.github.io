@@ -1,0 +1,19 @@
+---
+title: "A country that works for all children and young people"
+subtitle: "An evidence-based plan for addressing the autism assessment and support crisis"
+type: "report"
+author: 
+  - name: N8 Research Partnership
+date: "2024"
+year: 2024
+link: "https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf"
+toc: true
+pub-info:
+  reference: >-
+    N8 Research Partnership (2024). A country that works for all children and young people. An evidence-based plan for addressing the autism assessment and support crisis. Report. N8 Research Partnership. <a href="https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf">https://www.n8research.org.uk/media/CoTN_Autism_Report_1.pdf</a>
+
+categories:
+  - education
+
+date-format: "YYYY"
+---

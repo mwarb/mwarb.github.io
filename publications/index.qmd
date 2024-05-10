@@ -19,6 +19,14 @@ listing:
       - "year desc"
       - "title"
     categories: true
+  - id: reports
+    contents: 
+      - "reports/*.qmd"
+    template: ../ejs/article.ejs
+    sort:
+      - "year desc"
+      - "title"
+    categories: true
 ---
 
 ## Preprints
@@ -26,7 +34,12 @@ listing:
 :::{#preprints}
 :::
 
-## Journal articles
+## Journal articles & conference proceedings
 
 :::{#articles}
+:::
+
+## Reports
+
+:::{#reports}
 :::

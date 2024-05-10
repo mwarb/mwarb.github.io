@@ -21,6 +21,15 @@
 
     $title-metadata.html()$
     
+    $if(link)$
+    <div class="quarto-title-meta-heading manual">Link</div>
+    <div class="quarto-title-meta-contents">
+        <p class="publication-link">
+            <a href= $pub-info.materials$> $link$ </a>
+        </p>
+    </div>
+    $endif$
+    
     $if(pub-info.materials)$
     <div class="quarto-title-meta-heading manual">Materials</div>
     <div class="quarto-title-meta-contents">
