@@ -1,0 +1,14 @@
+---
+pagetitle: "Publications | Matthew Warburton"
+toc: false
+listing:
+  - id: articles
+    contents: "*/**.qmd"
+    template: ../ejs/article.ejs
+    categories: true
+    sort:
+      - "year desc"
+      - "title"
+    sort-ui: [year]
+    page-size: 25
+---

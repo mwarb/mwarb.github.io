@@ -1,0 +1,30 @@
+---
+title: "Getting stuck in a rut as an emergent feature of a dynamic decision-making system"
+type: "article"
+author: 
+  - name: Jack Brookes
+    orcid: 0000-0002-4600-7561 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Mshari Alghadier
+    orcid: 0000-0003-3686-8074 
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+date: "2020-04"
+year: 2020
+publication: "Behavior Research Methods"
+doi: "https://doi.org/10.3758/s13428-019-01242-0"
+toc: false
+pub-info:
+  reference: >-
+    Brookes, J., <strong>Warburton, M.</strong>, Alghadier, M., Mon-Williams, M. & Mushtaq, F. (2020). Studying human behavior with virtual reality: The Unity Experiment Framework. <em>Behavior Research Methods, 52</em>, 455-463. doi: <a href="https://doi.org/10.3758/s13428-019-01242-0">10.3758/s13428-019-01242-0</a>
+  materials: "https://github.com/immersivecognition/unity-experiment-framework"
+
+# categories:
+---
+
+## Abstract
+
+Virtual reality (VR) systems offer a powerful tool for human behavior research. The ability to create three-dimensional visual scenes and to measure responses to the visual stimuli enables the behavioral researcher to test hypotheses in a manner and scale that were previously unfeasible. For example, a researcher wanting to understand interceptive timing behavior might wish to violate Newtonian mechanics so that objects can move in novel 3-D trajectories. The same researcher might wish to collect such data with hundreds of participants outside the laboratory, and the use of a VR headset makes this a realistic proposition. The difficulty facing the researcher is that sophisticated 3-D graphics engines (e.g., Unity) have been created for game designers rather than behavioral scientists. To overcome this barrier, we have created a set of tools and programming syntaxes that allow logical encoding of the common experimental features required by the behavioral scientist. The Unity Experiment Framework (UXF) allows researchers to readily implement several forms of data collection and provides them with the ability to easily modify independent variables. UXF does not offer any stimulus presentation features, so the full power of the Unity game engine can be exploited. We use a case study experiment, measuring postural sway in response to an oscillating virtual room, to show that UXF can replicate and advance upon behavioral research paradigms. We show that UXF can simplify and speed up the development of VR experiments created in commercial gaming software and facilitate the efficient acquisition of large quantities of behavioral research data.

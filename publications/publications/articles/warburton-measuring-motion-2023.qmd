@@ -1,0 +1,31 @@
+---
+title: "Measuring motion-to-photon latency for sensorimotor experiments with virtual reality systems"
+type: "article"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: J. Ryan Morehead
+    orcid: 0000-0001-5724-3028 
+date: "2023"
+year: 2023
+publication: "Behavior Research Methods"
+doi: "https://doi.org/10.3758/s13428-022-01983-5"
+toc: false
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Measuring motion-to-photon latency for sensorimotor experiments with virtual reality systems. <em>Behavior Research Methods, 55</em>, 3658-3678 doi: <a href="https://doi.org/10.3758/s13428-022-01983-5">10.3758/s13428-022-01983-5</a>
+  materials: "https://osf.io/emh5z/"
+  preprint: "https://www.biorxiv.org/content/10.1101/2022.06.24.497509"
+  extra: >-
+    Presented at Neural Control of Movement 2021.
+
+# categories:
+---
+
+## Abstract
+
+Consumer virtual reality (VR) systems are increasingly being deployed in research to study sensorimotor behaviors, but properties of such systems require verification before being used as scientific tools. The ‘motion-to-photon’ latency (the lag between a user making a movement and the movement being displayed within the display) is a particularly important metric as temporal delays can degrade sensorimotor performance. Extant approaches to quantifying this measure have involved the use of bespoke software and hardware and produce a single measure of latency and ignore the effect of the motion prediction algorithms used in modern VR systems. This reduces confidence in the generalizability of the results. We developed a novel, system-independent, high-speed camera-based latency measurement technique to co-register real and virtual controller movements, allowing assessment of how latencies change through a movement. We applied this technique to measure the motion-to-photon latency of controller movements in the HTC Vive, Oculus Rift, Oculus Rift S, and Valve Index, using the Unity game engine and SteamVR. For the start of a sudden movement, all measured headsets had mean latencies between 21 and 42 ms. Once motion prediction could account for the inherent delays, the latency was functionally reduced to 2–13 ms, and our technique revealed that this reduction occurs within ~25–58 ms of movement onset. Our findings indicate that sudden accelerations (e.g., movement onset, impacts, and direction changes) will increase latencies and lower spatial accuracy. Our technique allows researchers to measure these factors and determine the impact on their experimental design before collecting sensorimotor data from VR systems.

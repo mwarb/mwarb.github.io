@@ -1,0 +1,38 @@
+---
+title: "Human-like planning for reaching in cluttered environments"
+type: "proceedings"
+author: 
+  - name: Mohamed Hasan
+    orcid: 0000-0002-7477-7133
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Wisdom C. Agboh
+    orcid: 0000-0002-0242-0215
+  - name: Mehmet Dogar
+    orcid: 0000-0002-6896-5461
+  - name: Matteo Leonetti
+    orcid: 0000-0002-3831-2400
+  - name: He Wang
+    orcid: 0000-0002-2281-5679
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Anthony Cohn
+    orcid: 0000-0002-7652-8907
+date: "2020-09-15"
+year: 2020
+publication: "2020 IEEE International Conference on Robotics and Automation (ICRA)"
+doi: "https://doi.org/10.1109/ICRA40945.2020.9196665"
+toc: false
+pub-info:
+  reference: >-
+    Hasan, M., <strong>Warburton, M.</strong>, Agboh, W. C., Dogar, M., Leonetti, M., Wang, H., Mushtaq, F., Mon-Williams, M. & Cohn, A. G. (2020). Human-like planning for reaching in cluttered environments. <em>2020 IEEE International Conference on Robotics and Automation (ICRA)</em> (pp. 7784-7790). IEEE. doi: <a href="https://doi.org/10.1109/ICRA40945.2020.9196665">10.1109/ICRA40945.2020.9196665</a>.
+  materials: "https://github.com/m-hasan-n/hlp"
+
+# categories:
+---
+
+## Abstract
+
+Humans, in comparison to robots, are remarkably adept at reaching for objects in cluttered environments. The best existing robot planners are based on random sampling of configuration space- which becomes excessively high-dimensional with large number of objects. Consequently, most planners often fail to efficiently find object manipulation plans in such environments. We addressed this problem by identifying high-level manipulation plans in humans, and transferring these skills to robot planners. We used virtual reality to capture human participants reaching for a target object on a tabletop cluttered with obstacles. From this, we devised a qualitative representation of the task space to abstract the decision making, irrespective of the number of obstacles. Based on this representation, human demonstrations were segmented and used to train decision classifiers. Using these classifiers, our planner produced a list of waypoints in task space. These waypoints provided a high-level plan, which could be transferred to an arbitrary robot model and used to initialise a local trajectory optimiser. We evaluated this approach through testing on unseen human VR data, a physics-based robot simulation, and a real robot (dataset and code are publicly available 1 ). We found that the human-like planner outperformed a state-of-the-art standard trajectory optimisation algorithm, and was able to generate effective strategies for rapid planning- irrespective of the number of obstacles in the environment.

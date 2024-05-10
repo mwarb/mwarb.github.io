@@ -1,0 +1,23 @@
+
+```{=html}
+<ul class="pub-list list">
+<% for (const item of items) { %>
+  <li class="project" <%=metadataAttrs(item) %>>
+    <div class="project-content listing-pub-info">
+        <p><%= item['pub-info'].reference %></p>
+    </div>
+    
+    <a href="<%- item.path %>" class="btn btn-primary">
+      Details
+    </a>
+    <% if (item['pub-info'].materials) { %>
+    <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-zip"></i> Materials
+    </a>
+    <p>
+    <% } %>
+  </li>
+<% } %>
+</ul>
+
+```

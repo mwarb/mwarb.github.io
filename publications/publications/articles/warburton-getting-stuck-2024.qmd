@@ -1,0 +1,41 @@
+---
+title: "Getting stuck in a rut as an emergent feature of a dynamic decision-making system"
+type: "article"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Jack Brookes
+    orcid: 0000-0002-4600-7561 
+  - name: Mohamed Hasan
+    orcid: 0000-0002-7477-7133
+  - name: Matteo Leonetti
+    orcid: 0000-0002-3831-2400
+  - name: Mehmet Dogar
+    orcid: 0000-0002-6896-5461
+  - name: He Wang
+    orcid: 0000-0002-2281-5679
+  - name: Anthony Cohn
+    orcid: 0000-0002-7652-8907
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+date: "2024-04-03"
+year: 2024
+publication: "Royal Society Open Science"
+doi: "https://doi.org/10.1098/rsos.231550"
+toc: false
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Brookes, J., Hasan, M., Leonetti, M., Dogar, M., Wang, H., Cohn, A. G., Mushtaq, F., & Mon-Williams, M. (2024). Getting stuck in a rut as an emergent feature of a dynamic decision-making system. <em>Royal Society Open Science, 11</em>(4), 231550. doi: <a href="https://doi.org/10.1098/rsos.231550">10.1098/rsos.231550</a>
+  materials: "https://osf.io/jcgqk/"
+  preprint: "https://doi.org/10.1101/2020.06.02.127860 "
+  extra: >-
+    Presented at Progress in Motor Control 2019.
+
+# categories:
+---
+
+## Abstract
+
+Human sensorimotor decision making has a tendency to get ‘stuck in a rut’, being biased towards selecting a previously implemented action structure (hysteresis). Existing explanations propose this is the consequence of an agent efficiently modifying an existing plan, rather than creating a new plan from scratch. Instead, we propose that hysteresis is an emergent property of a system learning from the consequences of its actions. To examine this, 152 participants moved a cursor to a target on a tablet device while avoiding an obstacle. Hysteresis was observed when the obstacle moved sequentially across the screen between trials, whereby the participant continued moving around the same side of the obstacle despite it now requiring a larger movement than the alternative. Two further experiments (n = 20) showed an attenuation when time and resource constraints were eased. We created a simple computational model capturing probabilistic estimate updating that showed the same patterns of results. This provides, to our knowledge, the first computational demonstration of how sensorimotor decision making can get ‘stuck in a rut’ through the updating of the probability estimates associated with actions.

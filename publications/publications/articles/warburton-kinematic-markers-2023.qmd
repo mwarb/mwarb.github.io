@@ -1,0 +1,33 @@
+---
+title: "Kinematic markers of skill in first-person shooter video games"
+type: "article"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Carlo Campagnoli
+    orcid: 0000-0002-9794-4475 
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: J. Ryan Morehead
+    orcid: 0000-0001-5724-3028 
+date: "2023-07-31"
+year: 2023
+publication: "PNAS Nexus"
+doi: "https://doi.org/10.1093/pnasnexus/pgad249"
+toc: false
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Kinematic markers of skill in first-person shooter video games. <em>PNAS Nexus, 2</em>(8), pgad249 doi: <a href="https://doi.org/10.1093/pnasnexus/pgad249">10.1093/pnasnexus/pgad249</a>
+  materials: "https://osf.io/xd8sm/"
+  preprint: "https://doi.org/10.1101/2023.02.27.530169"
+  extra: >-
+    Presented at Neural Control of Movement 2022.
+
+# categories:
+---
+
+## Abstract
+
+Video games present a unique opportunity to study motor skill. First-person shooter (FPS) games have particular utility because they require visually guided hand movements that are similar to widely studied planar reaching tasks. However, there is a need to ensure the tasks are equivalent if FPS games are to yield their potential as a powerful scientific tool for investigating sensorimotor control. Specifically, research is needed to ensure that differences in visual feedback of a movement do not affect motor learning between the two contexts. In traditional tasks, a movement will translate a cursor across a static background, whereas FPS games use movements to pan and tilt the view of the environment. To this end, we designed an online experiment where participants used their mouse or trackpad to shoot targets in both visual contexts. Kinematic analysis showed player movements were nearly identical between contexts, with highly correlated spatial and temporal metrics. This similarity suggests a shared internal model based on comparing predicted and observed displacement vectors rather than primary sensory feedback. A second experiment, modeled on FPS-style aim-trainer games, found movements exhibited classic invariant features described within the sensorimotor literature. We found the spatial metrics tested were significant predictors of overall task performance. More broadly, these results show that FPS games offer a novel, engaging, and compelling environment to study sensorimotor skill, providing the same precise kinematic metrics as traditional planar reaching tasks.

@@ -1,30 +1,22 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
-  title: ""
-  search: false
+  title: "Matthew Warburton"
+  search: true
   navbar:
-    background: light
+    background: dark
     type: light
-    left:
+    # left:
+    right:
       - text: About
         href: index.qmd
-    
-    right:
-      - text: "{{< iconify eva:email-fill size=1.5em title='Email'>}}"
-        href: "mailto:pscmwa@leeds.ac.uk"
-      - text: "{{< iconify fa6-brands:square-twitter size=1.5em title='Twitter'>}}"
-        href: https://twitter.com/m_warb
-      - text: "{{< iconify fa6-brands:square-github size=1.5em title='Github'>}}"
-        href: https://github.com/mwarb
-      - text: "{{< iconify academicons:google-scholar-square size=1.5em title='Google Scholar'>}}"
-        href: https://scholar.google.com/citations?user=zQa8nTgAAAAJ&hl=en
-      - text: "{{< iconify academicons:orcid-square size=1.5em title='orcid'>}}"
-        href: https://orcid.org/0000-0001-5309-4424
-      - text: "{{< iconify academicons:researchgate-square size=1.5em title='ResearchGate'>}}"
-        href: https://www.researchgate.net/profile/Matthew-Warburton-3
+      - text: Publications
+        href: publications/index.qmd
+      
 
   # page-footer:
   #   border: true

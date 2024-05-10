@@ -1,0 +1,41 @@
+<header id="title-block-header"
+    class="quarto-title-block research default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    
+    $if(pub-info)$
+    <div class="project-details">
+        <div class="publication-content">
+            <p>$pub-info.reference$</p>
+        </div>
+    </div>
+    $endif$
+
+    $title-metadata.html()$
+    
+    $if(pub-info.materials)$
+    <div class="quarto-title-meta-heading manual">Materials</div>
+    <div class="quarto-title-meta-contents">
+        <p class="publication-materials">
+            <a href= $pub-info.materials$> $pub-info.materials$ </a>
+        </p>
+    </div>
+    $endif$
+    
+    $if(pub-info.preprint)$
+    <div class="quarto-title-meta-heading manual">Preprint</div>
+    <div class="quarto-title-meta-contents">
+        <p class="publication-preprint">
+            <a href= $pub-info.preprint$> $pub-info.preprint$ </a>
+        </p>
+    </div>
+    $endif$
+
+    $if(pub-info.extra)$
+    <div class="quarto-title-meta-heading manual">Other details</div>
+    <div class="quarto-title-meta-contents">
+        <p class="publication-extra">
+            $pub-info.extra$
+        </p>
+    </div>
+    $endif$
+
+</header>
