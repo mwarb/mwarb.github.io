@@ -1,0 +1,48 @@
+---
+title: "Getting stuck in a rut as an emergent feature of a dynamic decision-making system"
+type: "article"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Megan L. Wood
+    orcid: 0000-0003-1882-2355
+  - name: Kuldeep Sohal
+  - name: John Wright
+    orcid: 0000-0001-9572-7293
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Amy L. Atkinson
+    orcid: 0000-0001-9536-6950
+date: "2024-05-22"
+year: 2024
+publication: "BMC Public Health"
+doi: "https://doi.org/10.1186/s12889-024-18851-w"
+toc: true
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Wood, M. L., Sohal, K., Wright, J., Mon-Williams, M., & Atkinson, A. L. (2024). Risk of not being in employment, education or training (NEET) in late adolescence is signalled by school readiness measures at 4-5 years. <em>BMC Public Health, 24</em>. doi: <a href="https://doi.org/10.1186/s12889-024-18851-w">10.1186/s12889-024-18851-w</a>
+  materials: "https://github.com/ConnectedBradford/CB_2116_NEET"
+
+categories:
+  - education
+
+date-format: "YYYY"
+---
+
+## Abstract
+
+### Background
+
+Not being in employment, education, or training (NEET) is associated with poor health (physical and mental) and social exclusion. We investigated whether England's statutory school readiness measure conducted at 4-5 years provides a risk signal for NEET in late adolescence.
+
+### Methods
+
+We identified 8,118 individuals with school readiness measures at 4-5 years and NEET records at 16-17 years using Connected Bradford, a bank of linked routinely collected datasets. Children were categorised as 'school ready' if they reached a 'Good Level of Development' on the Early Years Foundation Stage Profile. We used probit regression and structural equation modelling to investigate the relationship between school readiness and NEET status and whether it primarily relates to academic attainment.
+
+### Results
+
+School readiness was significantly associated with NEET status. A larger proportion of young people who were not school ready were later NEET (11%) compared to those who were school ready (4%). Most of this effect was attributable to shared relationships with academic attainment, but there was also a direct effect. Measures of deprivation and Special Educational Needs were also strong predictors of NEET status.
+
+### Conclusions
+
+NEET risk factors occur early in life. School readiness measures could be used as early indicators of risk, with interventions targeted to prevent the long-term physical and mental health problems associated with NEET, especially in disadvantaged areas. Primary schools are therefore well placed to be public health partners in early intervention strategies.
