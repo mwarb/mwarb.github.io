@@ -1,5 +1,5 @@
 ---
-title: "Getting stuck in a rut as an emergent feature of a dynamic decision-making system"
+title: "Risk of not being in employment, education or training (NEET) in late adolescence is signalled by school readiness measures at 4-5 years"
 type: "article"
 author: 
   - name: Matthew Warburton
