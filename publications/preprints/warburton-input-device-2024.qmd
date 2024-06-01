@@ -1,0 +1,37 @@
+---
+title: "Input device matters for measures of behaviour in online experiments"
+type: "preprint"
+author: 
+  - name: Matthew Warburton
+    orcid: 0000-0001-5309-4424
+  - name: Carlo Campagnoli
+    orcid: 0000-0002-9794-4475 
+  - name: Mark Mon-Williams
+    orcid: 0000-0001-7595-8545
+  - name: Faisal Mushtaq
+    orcid: 0000-0001-7881-1127
+  - name: J. Ryan Morehead
+    orcid: 0000-0001-5724-3028 
+date: "2024"
+year: 2024
+# publication: ""
+doi: "https://doi.org/10.31234/osf.io/gxed3"
+toc: true
+pub-info:
+  reference: >-
+    <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2024). Input device matters for measures of behaviour in online experiments. <em>PsyArXiv</em>. doi: <a href="https://doi.org/10.31234/osf.io/gxed3">10.31234/osf.io/gxed3</a>
+#  materials: ""
+  preprint: "https://doi.org/10.31234/osf.io/gxed3"
+  extra: >-
+    Presented at EPS April 2024. 
+
+categories:
+  - online experiments
+  - motor learning
+
+date-format: "YYYY"
+---
+
+## Abstract
+
+Studies of perception, cognition, and action increasingly rely on measures derived from the movements of a cursor to investigate how psychological processes unfold over time. This method is one of the most sensitive measures available for remote experiments conducted online, but experimenters have little control over the input device used by participants, typically a mouse or trackpad. These two devices require biomechanically distinct movements to operate, so measures extracted from cursor tracking data may differ between input devices. We investigated this in two online experiments requiring participants to execute goal-directed movements. We identify several measures that are critically influenced by the choice of input device using a kinematic decomposition of the recorded cursor trajectories. This applied to both temporal and spatial variables, for example trackpad users showed greater reaction times but lower variability in movement directions when compared to mouse users. We believe there is a substantial risk that behavioural disparities caused by the input device used could be misidentified as differences in psychological processes. We urge researchers to collect data on input devices in online experiments and carefully consider and account for the effect they may have on their experimental data.

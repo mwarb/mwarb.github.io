@@ -27,4 +27,5 @@ My research interests include how we learn and maintain sensorimotor skills, how
 
 ## Recent events
 
+-   2024-05-29: [My preprint](/publications/preprints/warburton-input-device-2024.qmd) assessing whether movement properties differ between input devices in online experiments was uploaded to PsyArXiv. 
 -   2024-05-22: [My paper](/publications/articles/warburton-risk-of-2024.qmd) investigating the association between a measure of school readiness and later NEET status was published in *BMC Public Health*.
