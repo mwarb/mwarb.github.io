@@ -7,7 +7,7 @@ listing:
       - "preprints/*.qmd"
     template: ../ejs/article.ejs
     sort:
-      - "year desc"
+      - "date desc"
       - "title"
     categories: true
   - id: articles
@@ -16,7 +16,7 @@ listing:
       - "proceedings/*.qmd"
     template: ../ejs/article.ejs
     sort:
-      - "year desc"
+      - "date desc"
       - "title"
     categories: true
   - id: reports
@@ -24,7 +24,7 @@ listing:
       - "reports/*.qmd"
     template: ../ejs/article.ejs
     sort:
-      - "year desc"
+      - "date desc"
       - "title"
     categories: true
 ---

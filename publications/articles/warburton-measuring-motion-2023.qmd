@@ -17,7 +17,7 @@ doi: "https://doi.org/10.3758/s13428-022-01983-5"
 toc: true
 pub-info:
   reference: >-
-    <strong>Warburton, M.</strong>, Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Measuring motion-to-photon latency for sensorimotor experiments with virtual reality systems. <em>Behavior Research Methods, 55</em>, 3658-3678 doi: <a href="https://doi.org/10.3758/s13428-022-01983-5">10.3758/s13428-022-01983-5</a>
+    <strong>Warburton, M.</strong>, Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Measuring motion-to-photon latency for sensorimotor experiments with virtual reality systems. <em>Behavior Research Methods, 55</em>, 3658-3678.
   materials: "https://osf.io/emh5z/"
   preprint: "https://www.biorxiv.org/content/10.1101/2022.06.24.497509"
   extra: >-

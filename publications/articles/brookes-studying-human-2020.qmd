@@ -19,7 +19,7 @@ doi: "https://doi.org/10.3758/s13428-019-01242-0"
 toc: true
 pub-info:
   reference: >-
-    Brookes, J., <strong>Warburton, M.</strong>, Alghadier, M., Mon-Williams, M. & Mushtaq, F. (2020). Studying human behavior with virtual reality: The Unity Experiment Framework. <em>Behavior Research Methods, 52</em>, 455-463. doi: <a href="https://doi.org/10.3758/s13428-019-01242-0">10.3758/s13428-019-01242-0</a>
+    Brookes, J., <strong>Warburton, M.</strong>, Alghadier, M., Mon-Williams, M. & Mushtaq, F. (2020). Studying human behavior with virtual reality: The Unity Experiment Framework. <em>Behavior Research Methods, 52</em>, 455-463.
   materials: "https://github.com/immersivecognition/unity-experiment-framework"
 
 categories:

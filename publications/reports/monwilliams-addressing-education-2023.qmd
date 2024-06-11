@@ -12,7 +12,7 @@ link: "https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf"
 toc: true
 pub-info:
   reference: >-
-    Mon-Williams, M., Wood, M., et al. (2023). Addressing Education and Health Inequity: Perspectives from the North of England. A report prepared for the Child of the North All-Party Parliamentary Group. Report. Child of the North. <a href="https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf">https://www.healthequitynorth.co.uk/app/uploads/APPG-REPORT-SEPT-23.pdf</a>
+    Mon-Williams, M., Wood, M., et al. (2023). Addressing Education and Health Inequity: Perspectives from the North of England. A report prepared for the Child of the North All-Party Parliamentary Group. Report. Child of the North. 
 
 categories:
   - education

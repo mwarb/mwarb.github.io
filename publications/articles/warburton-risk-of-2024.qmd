@@ -20,7 +20,7 @@ doi: "https://doi.org/10.1186/s12889-024-18851-w"
 toc: true
 pub-info:
   reference: >-
-    <strong>Warburton, M.</strong>, Wood, M. L., Sohal, K., Wright, J., Mon-Williams, M., & Atkinson, A. L. (2024). Risk of not being in employment, education or training (NEET) in late adolescence is signalled by school readiness measures at 4-5 years. <em>BMC Public Health, 24</em>. doi: <a href="https://doi.org/10.1186/s12889-024-18851-w">10.1186/s12889-024-18851-w</a>
+    <strong>Warburton, M.</strong>, Wood, M. L., Sohal, K., Wright, J., Mon-Williams, M., & Atkinson, A. L. (2024). Risk of not being in employment, education or training (NEET) in late adolescence is signalled by school readiness measures at 4-5 years. <em>BMC Public Health, 24</em>.
   materials: "https://github.com/ConnectedBradford/CB_2116_NEET"
 
 categories:

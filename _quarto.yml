@@ -16,10 +16,6 @@ website:
         href: index.qmd
       - text: Publications
         href: publications/index.qmd
-  google-analytics:
-    tracking-id: "G-B3R4LM1ZGR"
-    storage: none
-    anonymize-ip: true
       
 
   # page-footer:
@@ -29,7 +25,7 @@ website:
 format:
   html:
     theme: [cosmo]
-    css: css/style.css
+    css: css/style.scss
     toc: false
 
 editor: source

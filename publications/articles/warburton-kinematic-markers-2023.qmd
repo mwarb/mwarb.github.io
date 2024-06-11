@@ -19,7 +19,7 @@ doi: "https://doi.org/10.1093/pnasnexus/pgad249"
 toc: true
 pub-info:
   reference: >-
-    <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Kinematic markers of skill in first-person shooter video games. <em>PNAS Nexus, 2</em>(8), pgad249 doi: <a href="https://doi.org/10.1093/pnasnexus/pgad249">10.1093/pnasnexus/pgad249</a>
+    <strong>Warburton, M.</strong>, Campagnoli, C., Mon-Williams, M., Mushtaq, F. & Morehead, J. R. (2023). Kinematic markers of skill in first-person shooter video games. <em>PNAS Nexus, 2</em>(8), pgad249.
   materials: "https://osf.io/xd8sm/"
   preprint: "https://doi.org/10.1101/2023.02.27.530169"
   extra: >-

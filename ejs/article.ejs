@@ -1,32 +1,29 @@
 
 ```{=html}
-<ul class="pub-list list">
-<% for (const item of items) { %>
-  <li class="project" <%=metadataAttrs(item) %>>
-    <div class="project-content listing-pub-info">
-        <p><%= item['pub-info'].reference %></p>
-    </div>
+<ol class="list" reversed>
+  <% for (const item of items) { %>
+    <li <%=metadataAttrs(item) %>>
+      <a href="<%- item.path %>" class="nounderline">
+        <%= item['pub-info'].reference %>
+      </a>
     
-    <a href="<%- item.path %>" class="btn btn-primary">
-      Details
-    </a>
-    <% if (item.doi) { %>
-    <a href="<%- item.doi %>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    <% } else if (item.link) { %>
-    <a href="<%- item.link %>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      Link
-    </a>
-    <% } %>
-    <% if (item['pub-info'].materials) { %>
-    <a href="<%- item['pub-info'].materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    <% } %>
-    <p>
-  </li>
-<% } %>
-</ul>
+      <% if (item.doi) { %>
+        <a href="<%- item.doi %>" class="badge" target="_blank" rel="noopener noreferrer">
+          DOI
+        </a>
+      <% } else if (item.link) { %>
+        <a href="<%- item.link %>" class="badge" target="_blank" rel="noopener noreferrer">
+          Link
+        </a>
+      <% } %>
+      <% if (item['pub-info'].materials) { %>
+        <a href="<%- item['pub-info'].materials %>" class="badge" target="_blank" rel="noopener noreferrer">
+          Materials
+        </a>
+      <% } %>
+    </li>
+  <% } %>
+</ol>
+</span>
 
 ```

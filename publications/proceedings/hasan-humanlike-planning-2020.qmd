@@ -27,7 +27,7 @@ doi: "https://doi.org/10.1109/ICRA40945.2020.9196665"
 toc: true
 pub-info:
   reference: >-
-    Hasan, M., <strong>Warburton, M.</strong>, Agboh, W. C., Dogar, M., Leonetti, M., Wang, H., Mushtaq, F., Mon-Williams, M. & Cohn, A. G. (2020). Human-like planning for reaching in cluttered environments. <em>2020 IEEE International Conference on Robotics and Automation (ICRA)</em> (pp. 7784-7790). IEEE. doi: <a href="https://doi.org/10.1109/ICRA40945.2020.9196665">10.1109/ICRA40945.2020.9196665</a>.
+    Hasan, M., <strong>Warburton, M.</strong>, Agboh, W. C., Dogar, M., Leonetti, M., Wang, H., Mushtaq, F., Mon-Williams, M. & Cohn, A. G. (2020). Human-like planning for reaching in cluttered environments. <em>2020 IEEE International Conference on Robotics and Automation (ICRA)</em> (pp. 7784-7790). IEEE. 
   materials: "https://github.com/m-hasan-n/hlp"
 
 categories:
