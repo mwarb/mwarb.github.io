@@ -24,8 +24,7 @@ website:
 
 format:
   html:
-    theme: [cosmo]
-    css: css/style.scss
+    theme: [cosmo, css/style.scss]
     toc: false
 
 editor: source
